@@ -1,0 +1,36 @@
+body{
+    font-family: "Larsseit";
+}
+
+.cyrillic{
+    font-family: "Lato";
+    font-weight: 900;
+}
+
+/* Приорітет селекторів */
+p{
+    color: blueviolet;
+}
+
+.blok{
+    color: seagreen;
+}
+
+.blok p{
+    color: red;
+}
+
+p.blok{
+    color: blue;
+}
+
+#id-p{
+    color: chartreuse;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.blok .text{
+    color:rgb(41, 6, 74);
+}
+
